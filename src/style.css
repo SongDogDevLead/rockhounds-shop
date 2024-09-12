@@ -1,1 +1,15 @@
 @import './reset.css';
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rocksalt';
+    src: url('./assets/fonts/RockSalt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
