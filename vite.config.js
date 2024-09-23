@@ -1,4 +1,12 @@
 export default {
   root: './',
-  publicDir: 'public'
+  publicDir: 'public',
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html',
+        shop: './shop.html'
+      }
+    }
+  }
 }
